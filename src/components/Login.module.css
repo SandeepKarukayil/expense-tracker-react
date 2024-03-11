@@ -1,0 +1,69 @@
+.card {
+	/* background-color: red; */
+	width: 35%;
+	height: 55%;
+
+	/* display: flex; */
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 12vh;
+	padding: 2vh 0vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+}
+form {
+	height: 25%;
+	width: 100%;
+	margin: 0;
+}
+.input {
+	padding: 1vh 1vh;
+
+	width: 100%;
+}
+.input input {
+	margin: 2vh 1vh;
+	border: none;
+	width: 60%;
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.input input:active {
+	background-color: #4382db;
+}
+button {
+	display: inline-block;
+	margin: 10% 0;
+	width: 70%;
+	height: 30%;
+	padding: 2% 4%;
+	background-color: rgb(94, 125, 188);
+	border-radius: 50px;
+	border: none;
+	color: #fff;
+}
+button:hover {
+	cursor: pointer;
+}
+
+.error {
+	color: rgb(146, 13, 13);
+	font-weight: bold;
+	font-size: medium;
+}
+
+.signupSignin {
+	border: 2px solid rgb(99, 190, 223);
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 50px;
+	padding: 0.5vw 1vw;
+	font-size: 0.8rem;
+	width: 75%;
+	margin: 0 15%;
+}
+
+.signupSignin:hover {
+	cursor: pointer;
+	background-color: #a4a4a4;
+	color: white;
+}

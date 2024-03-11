@@ -1,0 +1,29 @@
+.incomplete {
+	height: 20%;
+	width: 100%;
+	padding: 1px 2%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid grey;
+}
+
+.incompleteBlock {
+	background-color: rgb(211, 144, 211);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+	padding: 0 1vw;
+	gap: 1vw;
+}
+.incompleteBlock button {
+	width: fit-content;
+	padding: 0.5vw 2vw;
+}
+
+.incompleteBlock:hover {
+	cursor: pointer;
+	background-color: blueviolet;
+	color: red;
+}

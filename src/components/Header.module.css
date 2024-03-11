@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Gilroy;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+
+.navigation {
+	width: 100%;
+	height: 100%;
+	padding: 0.5vw 1vw;
+	color: #585656;
+	display: flex;
+	/* background-color: blue; */
+	justify-content: flex-start;
+	align-items: center;
+	margin: 0;
+}
+
+.titleContainer {
+	height: 100%;
+	width: 30%;
+	display: flex;
+	margin: 0;
+}
+.titleContainer > h1 {
+	color: black;
+}
+
+.navContainer {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	gap: 2%;
+	align-items: center;
+}
